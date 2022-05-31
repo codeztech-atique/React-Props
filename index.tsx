@@ -9,6 +9,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <App name="Atique" />
+    {/* Components */}
+    <App name="Atique" desg="pestoMentor" />
   </StrictMode>
 );

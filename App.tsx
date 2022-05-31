@@ -8,7 +8,9 @@ export default function App(props) {
 
   return (
     <div>
-      <h1>Hello {props.name}!</h1>
+      <h1>
+        Hello {props.name}! Designation {props.desg}
+      </h1>
       <p>Start click on the button to see the magic :)</p>
       <button onClick={shoot}>Take the Shot!</button>
     </div>
